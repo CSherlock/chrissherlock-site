@@ -1,0 +1,112 @@
+body {
+    font-family: "Tahoma", sans-serif;
+}
+
+.header {
+    align-items: center;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.header img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.profile {
+    margin: 0px 80px;
+    text-align: left;
+    padding-left: 20px;
+    border-left: 3px solid #111;
+}
+
+.experience {
+    padding: 40p 40px 40px;
+}
+
+.job {
+    margin: 40px 80px;
+    text-align: left;
+    padding-left: 20px;
+    border-left: 3px solid #111;
+}
+
+.current {
+    border-left: 3px solid #F00;
+}
+
+.keyskills {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.skill {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.flexer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    color: #111;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer .copy {
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 20px;
+    }
+
+    .profile {
+        padding: 10px;
+        margin: 0px;
+        border: none;
+    }
+
+    .experience {
+        padding: none;
+        margin: 2px;
+    }
+
+    .job {
+        margin: 0px 0px 40px 0px;
+        text-align: left;
+        border-left: 3px solid #111;
+    }
+
+    .current {
+        border-left: 3px solid #F00;
+    }
+}
