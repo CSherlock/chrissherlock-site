@@ -1,8 +1,9 @@
 <template>
     <div class="keyskills">
-        <Skill skill='C#'></Skill>
-        <Skill skill='Python'></Skill>
-        <Skill skill='Manual Testing'></Skill>
+        <Skill v-for="skill in skills" :key="skill"
+            v-bind:skill="skill"
+        >
+        </Skill>
     </div>
 </template>
 
@@ -13,6 +14,7 @@ export default {
     name: 'SkillList',
     components: {
         Skill
-    }
+    },
+    props: ['skills']
 }
 </script>

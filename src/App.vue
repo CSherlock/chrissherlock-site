@@ -4,7 +4,7 @@
             <Header></Header>
             <div class="main">
                 <Profile></Profile>
-                <Experience></Experience>
+                <Experience :jobs="[{title:'foo', skills:['foo', 'bar'], isCurrent:true}, {title:'bar'}]"></Experience>
             </div>
         </main>
         <Footer></Footer>
