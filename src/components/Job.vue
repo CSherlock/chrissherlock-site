@@ -1,7 +1,7 @@
 <template>
-    <div class="job" v-bind:class="{current: job.isCurrent}">
+    <div class="job" v-bind:class="{current: job.current}">
         <Title :company="job.company" :title="job.title" :from="job.from" :to="job.to"></Title>
-        <JobDescription></JobDescription>
+        <JobDescription :description="job.description"></JobDescription>
         <h4>Key Skills:</h4>
         <SkillList :skills="job.skills"></SkillList>
     </div>

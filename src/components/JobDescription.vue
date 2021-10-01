@@ -1,6 +1,8 @@
 <template>
     <div>
-        {{description}}
+        <p v-for="line in description" :key="line">
+        {{line}}
+        </p>
     </div>
 </template>
 

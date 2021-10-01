@@ -4,7 +4,7 @@
             <Header></Header>
             <div class="main">
                 <Profile></Profile>
-                <Experience :jobs="[{title:'foo', skills:['foo', 'bar'], isCurrent:true}, {title:'bar'}]"></Experience>
+                <Experience :jobs="jobs"></Experience>
             </div>
         </main>
         <Footer></Footer>
@@ -18,6 +18,7 @@ import Experience from './components/Experience.vue'
 // import MobileNavbar from './components/MobileNavbar.vue'
 // import Content from './components/Content.vue'
 import Footer from './components/Footer.vue'
+import jobs from './util/jobs.json';
 
 export default {
   name: 'App',
@@ -26,6 +27,11 @@ export default {
     Profile,
     Experience,
     Footer
+  },
+  data() {
+    return {
+      jobs: jobs,
+    }
   }
 }
 </script>

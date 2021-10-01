@@ -1,6 +1,6 @@
 <template>
     <div class="experience">
-        <Job v-for="job in jobs" :key="job.title"
+        <Job v-for="job in jobs" :key="job.index"
             v-bind:job="job"
         >
         </Job>
