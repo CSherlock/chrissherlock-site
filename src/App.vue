@@ -2,7 +2,7 @@
     <div id='app'>
         <main>
             <Header></Header>
-            <div class="main">
+            <div class="flex flex-col text-center p-0 md:p-12 justify-center">
                 <Profile></Profile>
                 <Experience :jobs="jobs"></Experience>
             </div>

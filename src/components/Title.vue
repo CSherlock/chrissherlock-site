@@ -1,8 +1,8 @@
 <template>
-    <div class="title">
+    <div class="pb-2">
         <h3>{{company}}</h3>
         <h4>{{title}}</h4>
-        <p>{{from}} - {{to}}</p>
+        <p class="italic">{{from}} - {{to}}</p>
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="experience">
+    <div class="p-none md:pb-12">
         <Job v-for="job in jobs" :key="job.index"
             v-bind:job="job"
         >

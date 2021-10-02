@@ -1,5 +1,5 @@
 <template>
-    <div class="profile">
+    <div class="border-left mx-0 md:mx-20 text-left pl-5">
         <h2>Hi there!</h2>
         <p>
             My name is Chris, and I'm a Test Engineer currently based in Sheffield. I've worked in this area for a fair few years

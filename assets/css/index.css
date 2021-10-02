@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+Inspiration taken from Tailwind Starter Kit
+https://www.creative-tim.com/learning-lab/tailwind-starter-kit/documentation/css/typography/headings
+*/
+@layer base {
+    h1 {
+        @apply text-3xl font-semibold leading-normal mt-2 mb-2;
+    },
+    h2 {
+        @apply text-2xl font-semibold leading-normal mt-2 mb-2;
+    },
+    h3 {
+        @apply text-xl font-semibold leading-normal mt-2 mb-2;
+    },
+    h4 {
+        @apply text-lg font-semibold leading-normal mt-2 mb-2;
+    }
+}

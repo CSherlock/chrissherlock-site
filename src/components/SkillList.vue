@@ -1,5 +1,5 @@
 <template>
-    <div class="keyskills">
+    <div class="content-center justify-start flex flex-wrap">
         <Skill v-for="skill in skills" :key="skill"
             v-bind:skill="skill"
         >
