@@ -2,7 +2,7 @@
     <div class="profile">
         <h2>Hi there!</h2>
         <p>
-            My name is Chris, and I'm a 27 year old Test Engineer currently based in Sheffield. I've worked in this area for a fair few years
+            My name is Chris, and I'm a Test Engineer currently based in Sheffield. I've worked in this area for a fair few years
             now (as the Experience section will show!), and am still learning every day. Currently, I'm trying to get better at cloud development,
             particularly the challenge that serverless presents to testing!
         </p>
