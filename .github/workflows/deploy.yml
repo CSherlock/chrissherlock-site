@@ -4,6 +4,7 @@ on:
   push:
     branches: [ master ]
 
+jobs:
   publish:
     name: Publish site
     runs-on: ubuntu-latest
