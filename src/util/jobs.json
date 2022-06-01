@@ -1,11 +1,34 @@
 [
     {
         "index": 0,
+        "company": "Nimble Approach",
+        "title": "Senior Test Engineer",
+        "from": "February 2022",
+        "to": "Present",
+        "current": true,
+        "skills": [
+            "Cypress",
+            "Postman",
+            "NodeJS",
+            "Selenium",
+            "Docker",
+            "Azure DevOps",
+            "C#",
+            "Scala"
+        ],
+        "description": [
+            "Consulting for clients in the gambling and government spaces.",
+            "Helping them to improve their testing approach, from shifting left to improving their test automation.",
+            "Also taking an active involvment in the testing community of practice within Nimble Approach, presenting lightning talks around topics ranging from accessibility to chaos engineering."
+        ]
+    },
+    {
+        "index": 1,
         "company": "IRIS Software Group",
         "title": "Senior Test Engineer",
         "from": "May 2020",
-        "to": "Present",
-        "current": true,
+        "to": "February 2022",
+        "current": false,
         "skills": [
             "Cypress",
             "Postman",
@@ -17,14 +40,14 @@
             "C#"
         ],
         "description": [
-            "Working as a member of the Communications team for the newly created Elements platform. This is an event-driven architecture built from the ground up on AWS that allows any other component within the Elements platform to be able to send a user a notification through the site. This will also later allow users to recieve SMS, email, and other forms of notifications if required.",
+            "Worked as a member of the Communications team for the newly created Elements platform. This is an event-driven architecture built from the ground up on AWS that allows any other component within the Elements platform to be able to send a user a notification through the site. This will also later allow users to recieve SMS, email, and other forms of notifications if required.",
             "As part of this project, I developed a new test framework in nodejs which interacts directly with the serverless components of this project, since the usual UI + API automation tests wouldn't have provided sufficient coverage.",
-            "I have also been championing various chaos engineering efforts on this project by the running Game Days - a day where all members of the team try and tackle realistic problems that may occur in the system with the goal to mitigate/resolve as quickly as possible, and ensure monitoring and alerting are working as expected and covering what they should!",
-            "I am also heavily involved in the Test Automation Community of Practice, aiming to improve the abilities of testers across the business, encourage Test Driven Development (TDD), and to increase our automated coverage as part of the wider CI/CD strategy."
+            "I also championed various chaos engineering efforts on this project by the running Game Days - a day where all members of the team try and tackle realistic problems that may occur in the system with the goal to mitigate/resolve as quickly as possible, and ensure monitoring and alerting are working as expected and covering what they should!",
+            "I was also heavily involved in the Test Automation Community of Practice, aiming to improve the abilities of testers across the business, encourage Test Driven Development (TDD), and to increase our automated coverage as part of the wider CI/CD strategy."
         ]
     },
     {
-        "index": 1,
+        "index": 2,
         "company": "BPDTS Ltd",
         "title": "Senior Test Engineer",
         "from": "June 2019",
@@ -49,7 +72,7 @@
         ]
     },
     {
-        "index": 2,
+        "index": 3,
         "company": "Sky Betting & Gaming",
         "title": "Test Automation Engineer",
         "from": "May 2018",
@@ -73,7 +96,7 @@
         ]
     },
     {
-        "index": 3,
+        "index": 4,
         "company": "Sky Betting & Gaming",
         "title": "Test Engineer",
         "from": "April 2017",
@@ -97,7 +120,7 @@
         ]
     },
     {
-        "index": 4,
+        "index": 5,
         "company": "Thales e-Security",
         "title": "Graduate Test & Integration Engineer",
         "from": "September 2014",
