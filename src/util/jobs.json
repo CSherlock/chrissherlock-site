@@ -1,0 +1,140 @@
+[
+    {
+        "index": 0,
+        "company": "Nimble Approach",
+        "title": "Senior Test Engineer",
+        "from": "February 2022",
+        "to": "Present",
+        "current": true,
+        "skills": [
+            "Cypress",
+            "Postman",
+            "NodeJS",
+            "Selenium",
+            "Docker",
+            "Azure DevOps",
+            "C#",
+            "Scala"
+        ],
+        "description": [
+            "Consulting for clients in the gambling and government spaces.",
+            "Helping them to improve their testing approach, from shifting left to improving their test automation.",
+            "Also taking an active involvment in the testing community of practice within Nimble Approach, presenting lightning talks around topics ranging from accessibility to chaos engineering."
+        ]
+    },
+    {
+        "index": 1,
+        "company": "IRIS Software Group",
+        "title": "Senior Test Engineer",
+        "from": "May 2020",
+        "to": "February 2022",
+        "current": false,
+        "skills": [
+            "Cypress",
+            "Postman",
+            "TeamCity",
+            "NodeJS",
+            "Selenium",
+            "Docker",
+            "AWS",
+            "C#"
+        ],
+        "description": [
+            "Worked as a member of the Communications team for the newly created Elements platform. This is an event-driven architecture built from the ground up on AWS that allows any other component within the Elements platform to be able to send a user a notification through the site. This will also later allow users to recieve SMS, email, and other forms of notifications if required.",
+            "As part of this project, I developed a new test framework in nodejs which interacts directly with the serverless components of this project, since the usual UI + API automation tests wouldn't have provided sufficient coverage.",
+            "I also championed various chaos engineering efforts on this project by the running Game Days - a day where all members of the team try and tackle realistic problems that may occur in the system with the goal to mitigate/resolve as quickly as possible, and ensure monitoring and alerting are working as expected and covering what they should!",
+            "I was also heavily involved in the Test Automation Community of Practice, aiming to improve the abilities of testers across the business, encourage Test Driven Development (TDD), and to increase our automated coverage as part of the wider CI/CD strategy."
+        ]
+    },
+    {
+        "index": 2,
+        "company": "BPDTS Ltd",
+        "title": "Senior Test Engineer",
+        "from": "June 2019",
+        "to": "April 2020",
+        "current": false,
+        "skills": [
+            "Java",
+            "Postman",
+            "GitLab",
+            "NodeJS",
+            "Selenium",
+            "Docker",
+            "aXe",
+            "WAVE",
+            "AWS"
+        ],
+        "description": [
+            "Working as a member of the Identity &amp; Trust hub for the Department for Work &amp; Pensions (DWP) in Sheffield to improve digital journeys for those applying for benefits such as Universal Credit.",
+            "This involved performing testing of all areas, from functional testing to performance, security and accessibility. It also involved making sure automated testing was performed as part of a Continuous Integration pipeline, with sufficient coverage as to provide confidence in the deployments.",
+            "I also strived to mentor other testers within the Sheffield hub, particularly around improvements to automated testing capability, helping those working alongside the DevOps team to add InSpec testing to their Infrastructure as Code capability when asked.",
+            "I also worked as part of a community of Senior Test Engineers across all sites to define a set of principles and practices that could be used to align BPDTS testers and ensure we were always working to deliver the best quality we could."
+        ]
+    },
+    {
+        "index": 3,
+        "company": "Sky Betting & Gaming",
+        "title": "Test Automation Engineer",
+        "from": "May 2018",
+        "to": "April 2019",
+        "current": false,
+        "skills": [
+            "Java",
+            "JUnit",
+            "TestNG",
+            "Postman",
+            "Jenkins",
+            "NodeJS",
+            "Selenium",
+            "Rest-Assured",
+            "Docker"
+        ],
+        "description": [
+            "Moving into a new role, I took on responsibility along with one other teammate to the maintenance and improvement of the Core Tribe's automated testing capability. This meant that I was now a cross-Tribe resource, working alongside all teams to ensure our coverage was as strong and reliable as possible.",
+            "As part of this role, I also participated with cross-Tribe discussions on how to improve this across the business. Due to the size of the company, there were lots of teams attempting similar things, so this tried to align us as best as possible.",
+            "My day-to-day work involved maintaining of Jenkins testing pipelines, improving our test automation coverage and providing toolkits that could be leveraged by all teams for common functionality such as reporting, safely accessing secrets such as API keys from Hashicorp Vault, and talking to external services such as BrowserStack"
+        ]
+    },
+    {
+        "index": 4,
+        "company": "Sky Betting & Gaming",
+        "title": "Test Engineer",
+        "from": "April 2017",
+        "to": "May 2018",
+        "current": false,
+        "skills": [
+            "Java",
+            "JUnit",
+            "TestNG",
+            "Postman",
+            "Jenkins",
+            "NodeJS",
+            "Selenium",
+            "Rest-Assured",
+            "Docker"
+        ],
+        "description": [
+            "Moving back to Sheffield, I joined Sky Betting &amp; Gaming's Core Tribe as part of the Payments team, whose day-to-day tasks involved developing the payments systems for the whole site, ensuring deposits and withdrawals continued to flow. I also assisted with any live incidents that may have occurred in this area, ensuring that any issues were mitigated with as few customers affected as possible. This involved testing across a wide range of browsers, devices, and through web and native applications.",
+            "During my time on this team, we successfully delivered the Fast Withdrawals project, which saw customers for certain banks eligible to get their withdrawals into their accounts in under 2 hours, compared to the regular 2 to 5 days.",
+            "As part of this team, I maintained the regression test packs for Payments. This consisted of API tests and UI tests, written in Java and using Selenium WebDriver for the front end testing. I also assisted with general upkeep of other test packs, which would lead me into my next role."
+        ]
+    },
+    {
+        "index": 5,
+        "company": "Thales e-Security",
+        "title": "Graduate Test & Integration Engineer",
+        "from": "September 2014",
+        "to": "March 2017",
+        "current": false,
+        "skills": [
+            "C#",
+            "Python",
+            "Manual Testing"
+        ],
+        "description": [
+            "Joining as a graduate, I worked as part of the Test & Integration team in Cambridge. We worked alongside scrum teams tasked with creating new features for use with Thales e-Security Hardware Security Modules (HSMs).",
+            "This work involved a lot of functional manual testing of new features, as well as maintaining and updating an automated test regression pack to be run as a first step towards Continuous Integration, written in C#. I also assisted with the maintenance of other testing helpers, which mainly were developed using Python.",
+            "Outside of my day-to-day work, I was the site STEM outreach ambassador, which entailed helping out for various STEM activities, including organising work experience placements, and representing the company at the Big Bang Fair in Birmingham."
+        ]
+    }
+]
