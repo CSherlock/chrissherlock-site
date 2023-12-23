@@ -7,19 +7,18 @@
         "to": "Present",
         "current": true,
         "skills": [
+            "Playwright",
             "Cypress",
             "Postman",
             "NodeJS",
-            "Selenium",
             "Docker",
             "Azure DevOps",
-            "C#",
-            "Scala"
+            "C# / .NET"
         ],
         "description": [
-            "Consulting for clients in the gambling and government spaces.",
-            "Helping them to improve their testing approach, from shifting left to improving their test automation.",
-            "Also taking an active involvment in the testing community of practice within Nimble Approach, presenting lightning talks around topics ranging from accessibility to chaos engineering."
+            "Consulting for clients, primarily in the public sector. Currently working with the Department for Education - helping them to improve their testing approach, from shifting left to improving their test automation.",
+            "Taking an active involvment in the testing community of practice within Nimble.",
+            "Also jointly running the accessibility community, helping to champion its importance"
         ]
     },
     {
