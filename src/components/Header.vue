@@ -5,7 +5,7 @@
         </div>
         <div >
             <h1>Chris Sherlock</h1>
-            <h2>Senior Test Engineer</h2>
+            <h2>Lead Test Engineer</h2>
             <p class="italic">I have no idea what I'm doing</p>
         </div>
     </div>
